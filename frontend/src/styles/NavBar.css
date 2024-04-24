@@ -1,3 +1,17 @@
 .NavBar {
-background-color: #572D8A;
+  background-color: #572D8A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+}
+
+.navItem {
+  margin-left: 1em;
+  font-size: 1.5em;
+}
+
+.logoItem {
+  height: 2.5em; 
 }

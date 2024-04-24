@@ -1,3 +1,7 @@
+.nav {
+  position: relative;
+}
+
 .NavBar {
   background-color: #572D8A;
   display: flex;
@@ -5,6 +9,7 @@
   align-items: center;
   color: white;
   width: 100%;
+
 }
 
 .navItem {
@@ -30,5 +35,36 @@
 .contact-seperator {
   margin-left: 1em;
   margin-right: 1em;
+}
 
+.close-button {
+  position: absolute;
+  top: 2.3vh;
+  right: 1.5em;
+  color: white;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.circle-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #572D8A;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  z-index: 999; /* Ensure it's above other content */
+}
+
+.circle-button:hover {
+  background-color: #6a379f;
 }

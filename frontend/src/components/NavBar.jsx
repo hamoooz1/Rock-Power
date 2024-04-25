@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import '../styles/NavBar.css';
-import logo from '../logo.png'
+import logo from '../images/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';

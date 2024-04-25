@@ -1,0 +1,34 @@
+.avaid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.avaid-box {
+  display: flex;
+  justify-content: center;
+}
+
+.avaid-item {
+  border-top: #572D8A 3px solid;
+  max-width: 25em;
+  margin-top: 2em;
+  margin-left: 3em;
+}
+
+.avaid-title {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .avaid-item {
+    flex: 0 0 calc(33.33% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .avaid-item {
+    flex: 0 0 calc(50% - 20px);
+  }
+}

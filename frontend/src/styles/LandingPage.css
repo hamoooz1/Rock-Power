@@ -1,9 +1,9 @@
 .LandingPage {
-    background-image: url(../../public/landingpage.png);
+    background-image: url(../../public/landingpage.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-size: 100% 100%;
+    background-position: 50% 50%;
     height: 778px;
 }
 
@@ -18,8 +18,29 @@
     justify-content: space-around;
     align-items: flex-start;
     padding-bottom: 20px;
-    padding-top: 40vh;
+    padding-top: 30vh;
     padding-left: 4vw;
     padding-right: 4vw;
     display: flex;
+    font-weight: 700;
+}
+
+.cta-text{
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+}
+
+.cta-button {
+    width: 432px;
+    padding: 24px;
+    background-color: #572D8A;
+    color: white;
+    border-radius: 8px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.cta-button > span {
+    padding-right: 10px;
 }

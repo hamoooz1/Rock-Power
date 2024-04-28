@@ -6,8 +6,9 @@ import Avaid from './components/Avaid';
 function App() {
   return (
     <>
-    <LandingPage></LandingPage>
     <NavBar />
+    <LandingPage></LandingPage>
+
     <Avaid />
      <div className="App">
     </div>
